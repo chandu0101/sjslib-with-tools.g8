@@ -37,9 +37,8 @@ object PublicationDetails {
           </developers>,
       scalacOptions += {
         val a = (baseDirectory in LocalRootProject).value.toURI.toString
-        val g = "https://raw.githubusercontent.com/chandu0101/sri$name$/" + sys.process.Process("git rev-parse HEAD").lines_!.head
-        val r =  s"-P:scalajs:mapSourceURI:$a->$g/v${version.value}/"
-        r
+        val g = "https://raw.githubusercontent.com/chandu0101/$name$/" + sys.process.Process("git rev-parse HEAD").lines_!.head
+        // TODO fix this line 
       }
     )
 
