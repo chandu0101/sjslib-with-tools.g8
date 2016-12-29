@@ -42,14 +42,4 @@ object PublicationDetails {
     )
 
 
-  //  def sourceMapsToGithub =
-  //    Seq(
-  //      scalacOptions ++= (if (isSnapshot.value) Seq.empty else Seq({
-  //        val a = p.base.toURI.toString.replaceFirst("[^/]+/?$", "")
-  //        val g = "https://raw.githubusercontent.com/chandu0101/sri"
-  //        s"-P:scalajs:mapSourceURI:$a->$g/v${version.value}/"
-  //      }))
-  //    )
-
-
 }
