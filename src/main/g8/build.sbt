@@ -15,7 +15,7 @@ lazy val root = DefProject(".", "root")
 
 lazy val core = DefProject("core")
   .settings(coreModuleDeps)
-  .settings(publicationSettings)
+  //.settings(publicationSettings) TODO check later
 
 
 lazy val tools = project
