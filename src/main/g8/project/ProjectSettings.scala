@@ -1,7 +1,7 @@
 import org.scalajs.sbtplugin.ScalaJSPlugin
 import sbt.Keys._
 import sbt._
-import sbt.Dependencies._
+import Dependencies._
 
 object ProjectSettings {
 
